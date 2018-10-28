@@ -1,0 +1,77 @@
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="number"],
+.formulario input[type="tel"],
+.formulario-login input[type="text"],
+.formulario-login input[type="password"], 
+.formulario select {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 5px;
+	border-radius: 30px;
+	border: 1px solid #0D4E49;
+	font-family: Arial;
+	font-size: 14px;
+}
+
+.formulario input[type="text"]:focus,
+.formulario input[type="email"]:focus,
+.formulario input[type="number"]:focus,
+.formulario input[type="tel"]:focus,
+.formulario-login input[type="text"]:focus,
+.formulario-login input[type="password"]:focus,
+.formulario select:focus {
+	border: 2px solid #0D4E49;
+}
+
+.formulario-login {
+	width: 500px;
+	margin: 20px auto;
+	padding: 20px;
+	border-radius: 5px;
+	color: #0D4E49;
+}
+
+.formulario input[type="submit"],
+.formulario-login input[type="submit"],
+.formulario-login input[type="button"],
+.formulario-login input[type="reset"],
+.formulario-login input[type="file"]{
+	width: 100px;
+	margin: 0;
+	position: auto;
+	background: #0D4E49;
+	border: 1px solid #0D4E49;
+	color: #fff;
+	padding: 5px;
+	cursor: pointer;
+	font-size: 14px;
+	border-radius: 30px
+}
+
+.formulario input[type="submit"]:hover,
+.formulario-login input[type="submit"]:hover,
+.formulario-login input[type="button"]:hover,
+.formulario-login input[type="reset"]:hover,
+.formulario-login input[type="file"]:hover{
+	background: #fff;
+	color: #0D4E49;
+}
+
+input[type="submit"]{
+    width: 300px;
+	margin: 0;
+	position: auto;
+	background: #0D4E49;
+	border: 1px solid #0D4E49;
+	color: #fff;
+	padding: 5px;
+	cursor: pointer;
+	font-size: 14px;
+	border-radius: 30px
+}
+
+input[type="submit"]:hover{
+    background: #fff;
+	color: #0D4E49;
+}
